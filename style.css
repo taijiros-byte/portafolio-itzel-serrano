@@ -1,22 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Poppins',sans-serif;color:#333;line-height:1.6;background:#f7f7f7}
-.hero{height:85vh;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;position:relative}
-.hero .overlay{background:rgba(0,0,0,0.6);padding:2rem 3rem;border-radius:10px;text-align:center;color:#fff}
+body{font-family:'Poppins',sans-serif;color:#333;line-height:1.6;background:#fafafa}
+.hero{height:80vh;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;position:relative}
+.hero .overlay{background:rgba(0,0,0,0.55);padding:2.5rem 3.5rem;border-radius:12px;text-align:center;color:#fff}
 .hero h1{font-size:3rem;font-weight:600}
 .hero p{font-size:1.2rem;margin-top:.5rem}
-.hero span{font-size:.9rem;margin-top:.5rem;display:block}
-section{padding:4rem 8%;background:#fff;margin-bottom:2rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
-section h2{font-size:2.2rem;color:#0056b3;margin-bottom:1.5rem}
-.intro{background:#fffdf5}
-.lessons .lesson{display:flex;flex-wrap:wrap;align-items:center;margin-bottom:3rem;background:#f0f4ff;border-radius:8px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.05)}
-.lessons .lesson img{width:50%;min-width:300px;height:100%;object-fit:cover}
-.lesson-text{flex:1;padding:2rem}
-.lesson-text h3{font-size:1.5rem;color:#0077cc;margin-bottom:.8rem}
-.lesson-text p{margin-bottom:1rem;font-size:1rem}
-footer{text-align:center;padding:2rem;background:#003366;color:#fff;border-radius:8px 8px 0 0}
+.hero span{font-size:.9rem;margin-top:.4rem;display:block}
+section{padding:4rem 8%;background:#fff;margin-bottom:2rem;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+section h2{font-size:2.2rem;color:#0056b3;margin-bottom:1.8rem}
+.intro{background:#ffffff}
+.lessons{background:#f7faff;padding:0}
+.lesson{display:flex;flex-wrap:wrap;align-items:center;margin:0;padding:0}
+.lesson.reverse{flex-direction:row-reverse}
+.lesson img{width:50%;min-width:300px;height:100%;object-fit:cover}
+.lesson-text{flex:1;padding:3rem 4%;background:#ffffff}
+.lesson-text h3{font-size:1.6rem;color:#0077cc;margin-bottom:1rem}
+.lesson-text p{margin-bottom:1rem;font-size:1.05rem}
+footer{text-align:center;padding:2rem;background:#003366;color:#fff;border-radius:10px 10px 0 0;margin-top:3rem}
 @media(max-width:900px){
-  .lessons .lesson img{width:100%;height:250px}
-  .lesson-text{padding:1.5rem}
+  .lesson img{width:100%;height:250px}
+  .lesson-text{padding:2rem}
 }
